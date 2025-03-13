@@ -1,5 +1,5 @@
 # Chatbot
-Python files description :-
+**Python files description :-**
 
 1. **db.py** -
 This file handles the database connection to MySQL. It contains a function connect_db that establishes a connection to the specified database using the provided credentials. Two database connections are initialized: one for car_detail_db (containing car details like make, model, variant, etc.) and another for car_part_spares_db (containing parts and categories). If the connection fails, the program exits.
@@ -39,3 +39,20 @@ This is the main file for the Chainlit-based chatbot. It handles user interactio
 
 13. **chat.py** -
 This file implements a command-line version of the chatbot. It uses the same logic as chain_bot.py but runs in a terminal instead of a web interface. It includes functions for handling user input, managing sessions, and interacting with the database and NLP models.
+
+**Explanation of Requirements :-**
+
+1. mysql-connector-python: Required for connecting to and interacting with the MySQL database
+2. numpy: Used for numerical operations and handling arrays
+3. torch: Required for the GRU-based session memory and deep learning functionalities
+4. scikit-learn: Used for the spelling correction model (TF-IDF and KNN)
+5. spacy: Used for NLP tasks like entity extraction and preprocessing
+6. sentence-transformers: Provides pre-trained models for generating sentence embeddings
+7. faiss-cpu: Used for efficient similarity search on embeddings
+8. rank-bm25: Implements the BM25 algorithm for keyword-based matching
+9. ollama: Used for generating enhanced responses using the Ollama API
+10. chainlit: Framework for building the web-based chatbot interface
+11. nltk: Provides stopwords and other NLP utilities
+12. python-Levenshtein: Used for calculating string similarity (e.g., for spelling correction)
+13. pytest, black, flake8: Development tools for testing, code formatting, and linting
+14. tqdm: Provides progress bars for long-running operations.
