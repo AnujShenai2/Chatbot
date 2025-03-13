@@ -42,12 +42,12 @@ This file implements a command-line version of the chatbot. It uses the same log
 
 **Explanation of Requirements :-**
 
-1. mysql-connector-python: Required for connecting to and interacting with the MySQL database
+1. mysql: connector-python: Required for connecting to and interacting with the MySQL database
 2. numpy: Used for numerical operations and handling arrays
 3. torch: Required for the GRU-based session memory and deep learning functionalities
-4. scikit-learn: Used for the spelling correction model (TF-IDF and KNN)
+4. scikit: learn: Used for the spelling correction model (TF-IDF and KNN)
 5. spacy: Used for NLP tasks like entity extraction and preprocessing
-6. sentence-transformers: Provides pre-trained models for generating sentence embeddings
+6. sentence: transformers: Provides pre-trained models for generating sentence embeddings
 7. faiss-cpu: Used for efficient similarity search on embeddings
 8. rank-bm25: Implements the BM25 algorithm for keyword-based matching
 9. ollama: Used for generating enhanced responses using the Ollama API
