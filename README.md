@@ -40,7 +40,7 @@ This is the main file for the Chainlit-based chatbot. It handles user interactio
 13. **chat.py** -
 This file implements a command-line version of the chatbot. It uses the same logic as chain_bot.py but runs in a terminal instead of a web interface. It includes functions for handling user input, managing sessions, and interacting with the database and NLP models.
 
-**Explanation of Requirements :-**
+**Requirements :-**
 
 1. mysql: connector-python: Required for connecting to and interacting with the MySQL database
 2. numpy: Used for numerical operations and handling arrays
