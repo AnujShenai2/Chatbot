@@ -2,7 +2,7 @@ import mysql.connector
 
 def connect_db(db_name):
     try:
-        conn = mysql.connector.connect(host="127.0.0.1", user="root", password="AnuJ037#@00", database=db_name)
+        conn = mysql.connector.connect(host="127.0.0.1", user="root", password=" ***** ", database=db_name)
         print(f"Connected to {db_name}")
         return conn
     except mysql.connector.Error as err:
